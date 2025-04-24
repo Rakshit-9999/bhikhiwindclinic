@@ -1,8 +1,7 @@
 {
     "require": {
-        "php": "^8.0",
         "mailersend/mailersend": "^0.32.0",
-        "symfony/http-client": "^6.0",
+        "symfony/http-client": "*",
         "nyholm/psr7": "^1.8"
     },
     "config": {
