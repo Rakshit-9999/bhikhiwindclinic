@@ -1,24 +1,27 @@
-FROM php:8.2-apache
+FROM php:8.0-cli
 
-# Install system dependencies and PHP extensions
+# Install necessary dependencies
 RUN apt-get update && apt-get install -y \
-    git unzip zip libzip-dev \
-    && docker-php-ext-install zip pdo pdo_mysql
-
-# Enable Apache mod_rewrite
-RUN a2enmod rewrite
-
-# Copy app files
-COPY . /var/www/html/
-
-# Set working directory
-WORKDIR /var/www/html
+    libzip-dev \
+    unzip \
+    git \
+    curl
 
 # Install Composer
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
-# Install PHP dependencies
-RUN composer install
+# Set working directory
+WORKDIR /app
 
-# Set correct permissions
-RUN chown -R www-data:www-data /var/www/html
+# Copy composer.json and composer.lock
+COPY composer.json composer.lock /app/
+
+# Run composer install
+RUN composer install --no-interaction --prefer-dist --optimize-autoloader
+
+# Copy the rest of the application code
+COPY . /app/
+
+# Expose port and start PHP server
+EXPOSE 80
+CMD ["php", "-S", "0.0.0.0:80", "-t", "public"]
