@@ -1,0 +1,6 @@
+2025-04-19 20:23:12 - Appointment email error: The personalization.0.data field is required when personalization.0.email is present.
+2025-04-19 20:24:02 - Appointment email error: The personalization.0.data field is required when personalization.0.email is present.
+2025-04-23 08:45:11 - Appointment email error: Could not resolve host: api.mailersend.com for "https://api.mailersend.com/v1/email".
+2025-04-23 08:45:33 - Appointment email error: You have reached trial account unique recipients limit. #MS42225
+2025-04-23 08:45:56 - Appointment email error: You have reached trial account unique recipients limit. #MS42225
+2025-04-23 08:54:43 - Appointment email error: You have reached trial account unique recipients limit. #MS42225

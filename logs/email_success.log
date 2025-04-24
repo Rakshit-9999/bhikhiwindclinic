@@ -1,0 +1,333 @@
+2025-04-19 20:28:24 - Email sent successfully. Response: Array
+(
+    [status_code] => 202
+    [headers] => Array
+        (
+            [date] => Array
+                (
+                    [0] => Sat, 19 Apr 2025 18:28:11 GMT
+                )
+
+            [content-type] => Array
+                (
+                    [0] => text/html; charset=UTF-8
+                )
+
+            [x-message-id] => Array
+                (
+                    [0] => 6803eb3b7f214f854b2239e0
+                )
+
+            [cache-control] => Array
+                (
+                    [0] => no-cache, private
+                )
+
+            [x-apiquota-remaining] => Array
+                (
+                    [0] => 994
+                )
+
+            [x-apiquota-reset] => Array
+                (
+                    [0] => 2025-04-20T00:00:00Z
+                )
+
+            [x-ratelimit-limit] => Array
+                (
+                    [0] => 10
+                )
+
+            [x-ratelimit-remaining] => Array
+                (
+                    [0] => 9
+                )
+
+            [strict-transport-security] => Array
+                (
+                    [0] => max-age=31536000; includeSubDomains
+                )
+
+            [cf-cache-status] => Array
+                (
+                    [0] => DYNAMIC
+                )
+
+            [server] => Array
+                (
+                    [0] => cloudflare
+                )
+
+            [cf-ray] => Array
+                (
+                    [0] => 932e75cd396ab2c5-DEL
+                )
+
+        )
+
+    [body] => 
+    [response] => Nyholm\Psr7\Response Object
+        (
+            [reasonPhrase:Nyholm\Psr7\Response:private] => Accepted
+            [statusCode:Nyholm\Psr7\Response:private] => 202
+            [headers:Nyholm\Psr7\Response:private] => Array
+                (
+                    [date] => Array
+                        (
+                            [0] => Sat, 19 Apr 2025 18:28:11 GMT
+                        )
+
+                    [content-type] => Array
+                        (
+                            [0] => text/html; charset=UTF-8
+                        )
+
+                    [x-message-id] => Array
+                        (
+                            [0] => 6803eb3b7f214f854b2239e0
+                        )
+
+                    [cache-control] => Array
+                        (
+                            [0] => no-cache, private
+                        )
+
+                    [x-apiquota-remaining] => Array
+                        (
+                            [0] => 994
+                        )
+
+                    [x-apiquota-reset] => Array
+                        (
+                            [0] => 2025-04-20T00:00:00Z
+                        )
+
+                    [x-ratelimit-limit] => Array
+                        (
+                            [0] => 10
+                        )
+
+                    [x-ratelimit-remaining] => Array
+                        (
+                            [0] => 9
+                        )
+
+                    [strict-transport-security] => Array
+                        (
+                            [0] => max-age=31536000; includeSubDomains
+                        )
+
+                    [cf-cache-status] => Array
+                        (
+                            [0] => DYNAMIC
+                        )
+
+                    [server] => Array
+                        (
+                            [0] => cloudflare
+                        )
+
+                    [cf-ray] => Array
+                        (
+                            [0] => 932e75cd396ab2c5-DEL
+                        )
+
+                )
+
+            [headerNames:Nyholm\Psr7\Response:private] => Array
+                (
+                    [date] => date
+                    [content-type] => content-type
+                    [x-message-id] => x-message-id
+                    [cache-control] => cache-control
+                    [x-apiquota-remaining] => x-apiquota-remaining
+                    [x-apiquota-reset] => x-apiquota-reset
+                    [x-ratelimit-limit] => x-ratelimit-limit
+                    [x-ratelimit-remaining] => x-ratelimit-remaining
+                    [strict-transport-security] => strict-transport-security
+                    [cf-cache-status] => cf-cache-status
+                    [server] => server
+                    [cf-ray] => cf-ray
+                )
+
+            [protocol:Nyholm\Psr7\Response:private] => 1.1
+            [stream:Nyholm\Psr7\Response:private] => Nyholm\Psr7\Stream Object
+                (
+                    [stream:Nyholm\Psr7\Stream:private] => Resource id #147
+                    [seekable:Nyholm\Psr7\Stream:private] => 1
+                    [readable:Nyholm\Psr7\Stream:private] => 1
+                    [writable:Nyholm\Psr7\Stream:private] => 
+                    [uri:Nyholm\Psr7\Stream:private] => 
+                    [size:Nyholm\Psr7\Stream:private] => 
+                )
+
+        )
+
+)
+2025-04-19 20:36:59 - Email sent successfully. Response: Array
+(
+    [status_code] => 202
+    [headers] => Array
+        (
+            [date] => Array
+                (
+                    [0] => Sat, 19 Apr 2025 18:36:46 GMT
+                )
+
+            [content-type] => Array
+                (
+                    [0] => text/html; charset=UTF-8
+                )
+
+            [x-message-id] => Array
+                (
+                    [0] => 6803ed3ee466d1caa01d8c6c
+                )
+
+            [cache-control] => Array
+                (
+                    [0] => no-cache, private
+                )
+
+            [x-apiquota-remaining] => Array
+                (
+                    [0] => 993
+                )
+
+            [x-apiquota-reset] => Array
+                (
+                    [0] => 2025-04-20T00:00:00Z
+                )
+
+            [x-ratelimit-limit] => Array
+                (
+                    [0] => 10
+                )
+
+            [x-ratelimit-remaining] => Array
+                (
+                    [0] => 9
+                )
+
+            [strict-transport-security] => Array
+                (
+                    [0] => max-age=31536000; includeSubDomains
+                )
+
+            [cf-cache-status] => Array
+                (
+                    [0] => DYNAMIC
+                )
+
+            [server] => Array
+                (
+                    [0] => cloudflare
+                )
+
+            [cf-ray] => Array
+                (
+                    [0] => 932e8264fc315a26-DEL
+                )
+
+        )
+
+    [body] => 
+    [response] => Nyholm\Psr7\Response Object
+        (
+            [reasonPhrase:Nyholm\Psr7\Response:private] => Accepted
+            [statusCode:Nyholm\Psr7\Response:private] => 202
+            [headers:Nyholm\Psr7\Response:private] => Array
+                (
+                    [date] => Array
+                        (
+                            [0] => Sat, 19 Apr 2025 18:36:46 GMT
+                        )
+
+                    [content-type] => Array
+                        (
+                            [0] => text/html; charset=UTF-8
+                        )
+
+                    [x-message-id] => Array
+                        (
+                            [0] => 6803ed3ee466d1caa01d8c6c
+                        )
+
+                    [cache-control] => Array
+                        (
+                            [0] => no-cache, private
+                        )
+
+                    [x-apiquota-remaining] => Array
+                        (
+                            [0] => 993
+                        )
+
+                    [x-apiquota-reset] => Array
+                        (
+                            [0] => 2025-04-20T00:00:00Z
+                        )
+
+                    [x-ratelimit-limit] => Array
+                        (
+                            [0] => 10
+                        )
+
+                    [x-ratelimit-remaining] => Array
+                        (
+                            [0] => 9
+                        )
+
+                    [strict-transport-security] => Array
+                        (
+                            [0] => max-age=31536000; includeSubDomains
+                        )
+
+                    [cf-cache-status] => Array
+                        (
+                            [0] => DYNAMIC
+                        )
+
+                    [server] => Array
+                        (
+                            [0] => cloudflare
+                        )
+
+                    [cf-ray] => Array
+                        (
+                            [0] => 932e8264fc315a26-DEL
+                        )
+
+                )
+
+            [headerNames:Nyholm\Psr7\Response:private] => Array
+                (
+                    [date] => date
+                    [content-type] => content-type
+                    [x-message-id] => x-message-id
+                    [cache-control] => cache-control
+                    [x-apiquota-remaining] => x-apiquota-remaining
+                    [x-apiquota-reset] => x-apiquota-reset
+                    [x-ratelimit-limit] => x-ratelimit-limit
+                    [x-ratelimit-remaining] => x-ratelimit-remaining
+                    [strict-transport-security] => strict-transport-security
+                    [cf-cache-status] => cf-cache-status
+                    [server] => server
+                    [cf-ray] => cf-ray
+                )
+
+            [protocol:Nyholm\Psr7\Response:private] => 1.1
+            [stream:Nyholm\Psr7\Response:private] => Nyholm\Psr7\Stream Object
+                (
+                    [stream:Nyholm\Psr7\Stream:private] => Resource id #147
+                    [seekable:Nyholm\Psr7\Stream:private] => 1
+                    [readable:Nyholm\Psr7\Stream:private] => 1
+                    [writable:Nyholm\Psr7\Stream:private] => 
+                    [uri:Nyholm\Psr7\Stream:private] => 
+                    [size:Nyholm\Psr7\Stream:private] => 
+                )
+
+        )
+
+)
+2025-04-19 20:44:14 - Email sent successfully.2025-04-19 20:45:21 - Email sent successfully.2025-04-19 20:45:43 - Email sent successfully.2025-04-19 20:47:41 - Email sent successfully.2025-04-19 20:53:54 - Email sent successfully.2025-04-19 21:35:49 - Email sent successfully.2025-04-20 12:18:04 - Email sent successfully.2025-04-20 19:23:26 - Email sent successfully.2025-04-20 19:26:07 - Email sent successfully.2025-04-21 08:23:45 - Email sent successfully.2025-04-21 11:13:10 - Email sent successfully.2025-04-21 18:27:13 - Email sent successfully.2025-04-21 18:33:39 - Email sent successfully.2025-04-21 18:35:01 - Email sent successfully.2025-04-21 18:43:37 - Email sent successfully.2025-04-21 18:48:58 - Email sent successfully.
