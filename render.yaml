@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: your-app-name
+    env: php
+    buildCommand: |
+      apt-get update
+      apt-get install -y php-curl php-xml php-mbstring zip unzip
+      curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+      composer install --no-interaction --prefer-dist --optimize-autoloader
+    startCommand: vendor/bin/heroku-php-apache2 ./
+    envVars:
+      - key: PHP_VERSION
+        value: 8.1
